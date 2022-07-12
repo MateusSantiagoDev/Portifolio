@@ -1,0 +1,553 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body, html{
+    width: 100%;
+    height: 100vh;    
+}
+/* pagina inicial */
+    
+body#index1{
+    background-image: url(https://st4.depositphotos.com/16252222/40437/i/450/depositphotos_404379540-stock-photo-white-bokeh-black-background-light.jpg);
+}
+
+header#tituloh1{
+    background-color: green;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+    
+}
+div#minha_foto{
+    display: flex;
+    align-items: center;
+    margin-left: 43%;
+}
+
+img#foto{
+    margin-top: 3rem;
+    border: solid .3rem rebeccapurple;
+    border-radius: .6rem;
+    display: flex;
+    width: 30%;
+    align-items: center;
+}
+
+section#section-menu{
+    margin-top: .4rem;
+    display: flex;
+    justify-content: center;
+    
+    
+   
+}
+
+nav#nav-menu{   
+    display: flex;     
+    padding: 5rem;
+    
+}
+
+ul#index1_lista{
+    display: flex;
+   
+    
+}
+
+a.links{
+    border: solid .2rem white;
+    border-radius: 1rem;
+    padding: 1rem;    
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: .5rem;
+  
+    
+
+}
+
+a:hover{
+    color: brown;
+    background-color: blue;  
+    border: green;
+    border-radius: 1rem;
+}
+
+
+footer#index1_rodape{
+    font-size: 10px;
+    padding: .4rem;   
+    background-color: green;
+    
+}
+
+/* pagina 2 sobre mim */
+
+body#body_sobre_mim{ 
+  background-image: url(https://st4.depositphotos.com/16252222/40437/i/450/depositphotos_404379540-stock-photo-white-bokeh-black-background-light.jpg);
+   
+}
+
+body#body_sobre_mim img{
+    width: 100%;
+}
+
+header#header_sobre_mim{
+    text-align: center;
+    background-color: green;
+    padding: 1rem;
+    width: 100%;
+}
+
+header#header_sobre_mim h2{
+    color: black;
+}
+
+section#section_sobre_mim{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div#div_sobre_mim{
+    display: flex;
+    align-items:flex-start;
+    justify-content:flex-start;   
+    border: solid .3rem blue;
+    border-radius: .5rem;
+    padding: 3rem;
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 100px;
+    cursor: pointer;
+   
+}
+
+div#div_sobre_mim p{
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+div#div_sobre_mim:hover{
+    background-image: url(https://st4.depositphotos.com/16252222/40437/i/450/depositphotos_404379540-stock-photo-white-bokeh-black-background-light.jpg);
+    box-shadow: 5px 5px 5px 5px rgb(116, 114, 114);
+    
+}
+
+figure#fogete{
+    display: flex;   
+    justify-content: end;  
+    align-items: flex-end; 
+}
+
+figure#fogete img{
+    display: flex;
+    position: static;
+    top: 0;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 1rem;
+    width: 50%;
+}   
+
+
+footer#footer_sobre_mim{
+    margin-top: 185px;
+    padding: .4rem;
+    background-color:green;
+    
+}
+
+footer#footer_sobre_mim a{
+    text-decoration: none;
+    margin-left: 50px;
+    color: black;
+
+}
+
+/* pagina 3 projetos */
+
+body#body_projetos{
+    background-image: url(https://st4.depositphotos.com/16252222/40437/i/450/depositphotos_404379540-stock-photo-white-bokeh-black-background-light.jpg);
+}
+
+header#header_projetos{
+    background-color: green;
+    padding: 1rem;
+}
+
+header#header_projetos h2{
+    text-align: center;
+}
+
+main#main_projetos section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 150px;
+}
+
+div.div_projetos{
+   align-items: center;
+   justify-content: space-evenly;
+   box-shadow: 5px 5px 5px 5px blue;
+   transition: transform 10s ease;  
+   border: solid .4rem blue;
+   border-radius: .8rem;
+    
+}
+
+div.div_projetos:hover{
+    transform: scale(1.5);
+    transition: all 3s;
+    background-image: url(https://st4.depositphotos.com/16252222/40437/i/450/depositphotos_404379540-stock-photo-white-bokeh-black-background-light.jpg);
+    border: solid .4rem #ccc;
+    box-shadow: 5px 5px 5px 5px #ccc;
+    
+}
+
+div.div_projetos img{
+    display: flex;
+    margin: 0 auto;
+    border: solid .1rem black;
+    border-radius: .3rem;
+    width: 100%;
+    height: 100px;
+    
+}
+
+div.div_projetos h3{
+    color: white;
+    text-align: center;
+    padding: .8rem;
+}
+
+div.div_projetos p{
+    text-align: center;    
+    padding: 2rem;
+}
+
+div.div_projetos p a{
+    color: white;
+    text-decoration: none;   
+}
+
+div.div_projetos p a button{
+    background-color: green;
+    border: solid .3rem green;
+    border-radius: .6rem;
+    font-size: 1rem;
+    
+}
+
+div.div_projetos p a button:hover{
+    transform: scale(1.1);
+    background-color: rgb(92, 6, 6);
+    border: solid .3rem rgb(92, 6, 6);
+    border-radius: .6rem;
+}
+
+
+
+footer#footer_projetos{
+    background-color: green;
+    padding: .4rem;    
+    margin-top: 128px;
+}
+
+footer#footer_projetos a{
+    text-decoration: none;
+    margin: 50px;
+    color: black;  
+}
+
+/* pagina 4 hard skills */
+
+body#body_skills{
+    background-image: url(https://st4.depositphotos.com/16252222/40437/i/450/depositphotos_404379540-stock-photo-white-bokeh-black-background-light.jpg);
+}
+
+header#header_skills{
+    background-color: green;
+    padding: 1rem;
+}
+
+header#header_skills h2{
+    text-align: center;
+}
+
+main#main_skills section{
+    display: flex;   
+    justify-content: space-evenly;
+    margin-top: 180px;
+   
+}
+
+div.div_skills h3{
+    text-align: center;
+    color: white;
+    margin-bottom: 2rem;
+ 
+   
+}
+
+div.div_skills figure{
+
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+   
+}
+
+div.div_skills figure img{
+    
+    width: 100%;
+    height: 30vh;
+}
+
+div.div_skills figure img:hover{
+    transform: scale(1.1);
+}
+
+div.div_skills figure a{
+    text-decoration: none;
+}
+
+footer#footer_skills{
+    background-color: green;
+    margin-top: 105px;
+    padding: .4rem;
+}
+
+footer#footer_skills a{ 
+    margin: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+/* pagina 5 contato */
+
+header#header_contato{
+    background-color: green;
+    padding: 1rem;    
+}
+
+header#header_contato h2{
+    text-align: center;
+    
+}
+
+main#main_contato section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+figure#clique img#img_clique{
+    width: 50px;
+    margin-top: 200px;
+    margin-right: 200px;    
+}
+
+figure#clique img#img_clique:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    
+}
+figure#figure_contato{
+    display: flex;
+    margin-right: 200px;
+}
+
+figure#figure_contato img{
+    width: 80%;
+}
+
+div#div_contato{
+    padding: 1rem;
+    margin-right: 40px;
+}
+
+li.lista_contato{
+    padding: .5rem;
+    list-style: none;
+}
+
+li.lista_contato a img{
+   border: solid .3rem rgb(51, 50, 50);
+   border-radius: .6rem;
+   box-shadow: 5px 5px 5px 5px rgb(180, 178, 178);
+   width: 50%;
+  
+}
+
+li.lista_contato a img:hover{
+     
+    border: solid .3rem blue;
+    border-radius: .6rem;
+}
+
+
+footer#footer_contato{
+    background-color: green;
+    padding: .4rem;
+    margin-top: 64px;    
+
+}
+
+footer#footer_contato a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 1200px){ 
+  
+
+    div#minha_foto{
+      display: flex;
+      margin: 0 auto;     
+      align-items: center;
+      justify-content: center;
+        
+       
+    }
+
+    div#minha_foto img{       
+        width: 50%;            
+        align-items: center;
+        justify-content: center;       
+       
+    }
+    
+    ul#index1_lista{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+        
+    }    
+
+/* ///////////////////////////////////////////////////// */
+
+ section#section_sobre_mim{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   justify-content: center; 
+  
+  
+    
+} 
+
+div#div_sobre_mim{
+    display: flex;
+    align-items: center;   
+    border: solid .3rem blue;
+    border-radius: .5rem;
+    padding: 3rem;
+    width: 60%;
+    margin-right: 100px; 
+    cursor: pointer;
+   
+}
+ 
+div#div_sobre_mim p{    
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    margin-right: 100px;
+}
+
+/* ///////////////////////////////////////////////////// */
+
+main#main_projetos section{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+ 
+}
+
+/* ///////////////////////////////////////////////////// */
+
+
+
+
+main#main_skills section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+   
+}
+
+div.div_skills h3{
+    text-align: center;
+    color: white;
+    margin-bottom: 2rem;
+ 
+   
+}
+
+div.div_skills figure{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+   
+}
+
+div.div_skills figure img{
+    border: solid .3rem black;
+    border-radius: .6rem;    
+    width: 100%;
+    height: 30vh;
+}
+
+div.div_skills figure img:hover{
+    transform: scale(1.1);
+}
+
+/* ///////////////////////////////////////////////////// */
+
+
+
+
+
+main#main_contato section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+figure#figure_contato img{
+    display: flex;    
+    margin-left: 6rem;   
+   
+}
+
+figure#figure_contato img{
+    width: 100%;
+}
+
+div#div_contato{
+    display: flex;
+    margin: 0 auto;
+    padding: 1rem;
+    margin-left: 100px;
+
+}
+
+}
+
+
+    
+
